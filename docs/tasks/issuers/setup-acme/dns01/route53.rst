@@ -2,9 +2,10 @@
 Amazon Route53
 =========================
 
+Example definition of an Issuer using DNS.
 
-.. code:: yaml
-   :emphasize-lines: 10-16
+.. code-block:: yaml
+
 
    apiVersion: certmanager.k8s.io/v1alpha1
    kind: Issuer
